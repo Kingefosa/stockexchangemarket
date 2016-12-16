@@ -1,0 +1,4 @@
+C:\Users\Fatih Türker\Documents\Visual Studio 2013\Projects\StockExchangeMarket\StockExchangeMarket\bin\Release\StockExchangeMarket.dll
+C:\Users\Fatih Türker\Documents\Visual Studio 2013\Projects\StockExchangeMarket\StockExchangeMarket\bin\Release\StockExchangeMarket.pdb
+C:\Users\Fatih Türker\Documents\Visual Studio 2013\Projects\StockExchangeMarket\StockExchangeMarket\obj\Release\StockExchangeMarket.dll
+C:\Users\Fatih Türker\Documents\Visual Studio 2013\Projects\StockExchangeMarket\StockExchangeMarket\obj\Release\StockExchangeMarket.pdb

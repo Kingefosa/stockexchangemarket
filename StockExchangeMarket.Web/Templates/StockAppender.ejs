@@ -1,0 +1,13 @@
+﻿<% var guid = new Date().getMilliseconds();%>
+<div id="stockAppender<%=guid%>" class="ui modal registerModal">
+  <div class="ui green label header">Add New Stock Code</div>
+  <div class="content">
+    <div class="ui left icon input">
+      <input id="newStockCode<%=guid%>" type="text" placeholder="StockCode" />
+        <i class="exchange icon"></i>
+    </div>
+  </div>
+  <div class="actions">
+    <div id="AddNewCodeButton" class="ui blue button" onclick="addNewStockCode(<%=guid%>)">Add</div>
+  </div>
+</div>

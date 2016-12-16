@@ -1,0 +1,21 @@
+﻿<% var guid = new Date().getMilliseconds();%>
+<div class="ui modal registerModal">
+  <div class="ui blue label header">Register</div>
+  <div class="content">
+    <div class="ui left icon input">
+      <input id="regUsername<%=guid%>" type="text" placeholder="Username" />
+        <i class="user icon"></i>
+    </div>
+    <div class="ui left icon input topMargined">
+      <input id="regPass<%=guid%>" type="password" placeholder="Password" />
+      <i class="lock icon"></i>
+    </div>
+    <div class="ui left icon input topMargined">
+      <input id="regPassAgain<%=guid%>" type="password" placeholder="Password again" />
+      <i class="lock icon"></i>
+    </div>
+  </div>
+  <div class="actions">
+    <div id="registerButton<%=guid%>" class="ui blue button" onclick="registerUser(<%=guid%>)">Register</div>
+  </div>
+</div>

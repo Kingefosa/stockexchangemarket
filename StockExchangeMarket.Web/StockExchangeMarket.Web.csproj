@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9332B48F-3A08-41C9-81FB-E03285B9F32C}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>StockExchangeMarket.Web</RootNamespace>
+    <AssemblyName>StockExchangeMarket.Web</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\css\common.css" />
+    <Content Include="Assets\script\common.js" />
+    <Content Include="Assets\script\ejs.js" />
+    <Content Include="Assets\script\ejs_production.js" />
+    <Content Include="Assets\script\jquery-1.12.3.min.js" />
+    <Content Include="Assets\script\stocks.js" />
+    <Content Include="Assets\script\view.js" />
+    <Content Include="Assets\SemanticUI\themes\basic\assets\fonts\icons.eot" />
+    <Content Include="Assets\SemanticUI\themes\basic\assets\fonts\icons.ttf" />
+    <Content Include="Assets\SemanticUI\themes\basic\assets\fonts\icons.woff" />
+    <Content Include="Assets\SemanticUI\themes\default\assets\fonts\icons.eot" />
+    <Content Include="Assets\SemanticUI\themes\default\assets\fonts\icons.otf" />
+    <Content Include="Assets\SemanticUI\themes\default\assets\fonts\icons.ttf" />
+    <Content Include="Assets\SemanticUI\themes\default\assets\fonts\icons.woff" />
+    <Content Include="Assets\SemanticUI\themes\default\assets\fonts\icons.woff2" />
+    <Content Include="Assets\SemanticUI\themes\github\assets\fonts\octicons-local.ttf" />
+    <Content Include="Assets\SemanticUI\themes\github\assets\fonts\octicons.ttf" />
+    <Content Include="Assets\SemanticUI\themes\github\assets\fonts\octicons.woff" />
+    <Content Include="errorpage.html" />
+    <Content Include="Services\LoginService.asmx" />
+    <Content Include="Services\RegisterService.asmx" />
+    <Content Include="Services\StockService.asmx" />
+    <Content Include="Templates\Register.ejs" />
+    <Content Include="Templates\Stocks.ejs" />
+    <Content Include="Templates\StockAppender.ejs" />
+    <None Include="Properties\PublishProfiles\TURKERF.pubxml" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Assets\SemanticUI\components\accordion.css" />
+    <Content Include="Assets\SemanticUI\components\accordion.js" />
+    <Content Include="Assets\SemanticUI\components\accordion.min.css" />
+    <Content Include="Assets\SemanticUI\components\accordion.min.js" />
+    <Content Include="Assets\SemanticUI\components\ad.css" />
+    <Content Include="Assets\SemanticUI\components\ad.min.css" />
+    <Content Include="Assets\SemanticUI\components\api.js" />
+    <Content Include="Assets\SemanticUI\components\api.min.js" />
+    <Content Include="Assets\SemanticUI\components\breadcrumb.css" />
+    <Content Include="Assets\SemanticUI\components\breadcrumb.min.css" />
+    <Content Include="Assets\SemanticUI\components\button.css" />
+    <Content Include="Assets\SemanticUI\components\button.min.css" />
+    <Content Include="Assets\SemanticUI\components\card.css" />
+    <Content Include="Assets\SemanticUI\components\card.min.css" />
+    <Content Include="Assets\SemanticUI\components\checkbox.css" />
+    <Content Include="Assets\SemanticUI\components\checkbox.js" />
+    <Content Include="Assets\SemanticUI\components\checkbox.min.css" />
+    <Content Include="Assets\SemanticUI\components\checkbox.min.js" />
+    <Content Include="Assets\SemanticUI\components\colorize.js" />
+    <Content Include="Assets\SemanticUI\components\colorize.min.js" />
+    <Content Include="Assets\SemanticUI\components\comment.css" />
+    <Content Include="Assets\SemanticUI\components\comment.min.css" />
+    <Content Include="Assets\SemanticUI\components\container.css" />
+    <Content Include="Assets\SemanticUI\components\container.min.css" />
+    <Content Include="Assets\SemanticUI\components\dimmer.css" />
+    <Content Include="Assets\SemanticUI\components\dimmer.js" />
+    <Content Include="Assets\SemanticUI\components\dimmer.min.css" />
+    <Content Include="Assets\SemanticUI\components\dimmer.min.js" />
+    <Content Include="Assets\SemanticUI\components\divider.css" />
+    <Content Include="Assets\SemanticUI\components\divider.min.css" />
+    <Content Include="Assets\SemanticUI\components\dropdown.css" />
+    <Content Include="Assets\SemanticUI\components\dropdown.js" />
+    <Content Include="Assets\SemanticUI\components\dropdown.min.css" />
+    <Content Include="Assets\SemanticUI\components\dropdown.min.js" />
+    <Content Include="Assets\SemanticUI\components\embed.css" />
+    <Content Include="Assets\SemanticUI\components\embed.js" />
+    <Content Include="Assets\SemanticUI\components\embed.min.css" />
+    <Content Include="Assets\SemanticUI\components\embed.min.js" />
+    <Content Include="Assets\SemanticUI\components\feed.css" />
+    <Content Include="Assets\SemanticUI\components\feed.min.css" />
+    <Content Include="Assets\SemanticUI\components\flag.css" />
+    <Content Include="Assets\SemanticUI\components\flag.min.css" />
+    <Content Include="Assets\SemanticUI\components\form.css" />
+    <Content Include="Assets\SemanticUI\components\form.js" />
+    <Content Include="Assets\SemanticUI\components\form.min.css" />
+    <Content Include="Assets\SemanticUI\components\form.min.js" />
+    <Content Include="Assets\SemanticUI\components\grid.css" />
+    <Content Include="Assets\SemanticUI\components\grid.min.css" />
+    <Content Include="Assets\SemanticUI\components\header.css" />
+    <Content Include="Assets\SemanticUI\components\header.min.css" />
+    <Content Include="Assets\SemanticUI\components\icon.css" />
+    <Content Include="Assets\SemanticUI\components\icon.min.css" />
+    <Content Include="Assets\SemanticUI\components\image.css" />
+    <Content Include="Assets\SemanticUI\components\image.min.css" />
+    <Content Include="Assets\SemanticUI\components\input.css" />
+    <Content Include="Assets\SemanticUI\components\input.min.css" />
+    <Content Include="Assets\SemanticUI\components\item.css" />
+    <Content Include="Assets\SemanticUI\components\item.min.css" />
+    <Content Include="Assets\SemanticUI\components\label.css" />
+    <Content Include="Assets\SemanticUI\components\label.min.css" />
+    <Content Include="Assets\SemanticUI\components\list.css" />
+    <Content Include="Assets\SemanticUI\components\list.min.css" />
+    <Content Include="Assets\SemanticUI\components\loader.css" />
+    <Content Include="Assets\SemanticUI\components\loader.min.css" />
+    <Content Include="Assets\SemanticUI\components\menu.css" />
+    <Content Include="Assets\SemanticUI\components\menu.min.css" />
+    <Content Include="Assets\SemanticUI\components\message.css" />
+    <Content Include="Assets\SemanticUI\components\message.min.css" />
+    <Content Include="Assets\SemanticUI\components\modal.css" />
+    <Content Include="Assets\SemanticUI\components\modal.js" />
+    <Content Include="Assets\SemanticUI\components\modal.min.css" />
+    <Content Include="Assets\SemanticUI\components\modal.min.js" />
+    <Content Include="Assets\SemanticUI\components\nag.css" />
+    <Content Include="Assets\SemanticUI\components\nag.js" />
+    <Content Include="Assets\SemanticUI\components\nag.min.css" />
+    <Content Include="Assets\SemanticUI\components\nag.min.js" />
+    <Content Include="Assets\SemanticUI\components\popup.css" />
+    <Content Include="Assets\SemanticUI\components\popup.js" />
+    <Content Include="Assets\SemanticUI\components\popup.min.css" />
+    <Content Include="Assets\SemanticUI\components\popup.min.js" />
+    <Content Include="Assets\SemanticUI\components\progress.css" />
+    <Content Include="Assets\SemanticUI\components\progress.js" />
+    <Content Include="Assets\SemanticUI\components\progress.min.css" />
+    <Content Include="Assets\SemanticUI\components\progress.min.js" />
+    <Content Include="Assets\SemanticUI\components\rail.css" />
+    <Content Include="Assets\SemanticUI\components\rail.min.css" />
+    <Content Include="Assets\SemanticUI\components\rating.css" />
+    <Content Include="Assets\SemanticUI\components\rating.js" />
+    <Content Include="Assets\SemanticUI\components\rating.min.css" />
+    <Content Include="Assets\SemanticUI\components\rating.min.js" />
+    <Content Include="Assets\SemanticUI\components\reset.css" />
+    <Content Include="Assets\SemanticUI\components\reset.min.css" />
+    <Content Include="Assets\SemanticUI\components\reveal.css" />
+    <Content Include="Assets\SemanticUI\components\reveal.min.css" />
+    <Content Include="Assets\SemanticUI\components\search.css" />
+    <Content Include="Assets\SemanticUI\components\search.js" />
+    <Content Include="Assets\SemanticUI\components\search.min.css" />
+    <Content Include="Assets\SemanticUI\components\search.min.js" />
+    <Content Include="Assets\SemanticUI\components\segment.css" />
+    <Content Include="Assets\SemanticUI\components\segment.min.css" />
+    <Content Include="Assets\SemanticUI\components\shape.css" />
+    <Content Include="Assets\SemanticUI\components\shape.js" />
+    <Content Include="Assets\SemanticUI\components\shape.min.css" />
+    <Content Include="Assets\SemanticUI\components\shape.min.js" />
+    <Content Include="Assets\SemanticUI\components\sidebar.css" />
+    <Content Include="Assets\SemanticUI\components\sidebar.js" />
+    <Content Include="Assets\SemanticUI\components\sidebar.min.css" />
+    <Content Include="Assets\SemanticUI\components\sidebar.min.js" />
+    <Content Include="Assets\SemanticUI\components\site.css" />
+    <Content Include="Assets\SemanticUI\components\site.js" />
+    <Content Include="Assets\SemanticUI\components\site.min.css" />
+    <Content Include="Assets\SemanticUI\components\site.min.js" />
+    <Content Include="Assets\SemanticUI\components\state.js" />
+    <Content Include="Assets\SemanticUI\components\state.min.js" />
+    <Content Include="Assets\SemanticUI\components\statistic.css" />
+    <Content Include="Assets\SemanticUI\components\statistic.min.css" />
+    <Content Include="Assets\SemanticUI\components\step.css" />
+    <Content Include="Assets\SemanticUI\components\step.min.css" />
+    <Content Include="Assets\SemanticUI\components\sticky.css" />
+    <Content Include="Assets\SemanticUI\components\sticky.js" />
+    <Content Include="Assets\SemanticUI\components\sticky.min.css" />
+    <Content Include="Assets\SemanticUI\components\sticky.min.js" />
+    <Content Include="Assets\SemanticUI\components\tab.css" />
+    <Content Include="Assets\SemanticUI\components\tab.js" />
+    <Content Include="Assets\SemanticUI\components\tab.min.css" />
+    <Content Include="Assets\SemanticUI\components\tab.min.js" />
+    <Content Include="Assets\SemanticUI\components\table.css" />
+    <Content Include="Assets\SemanticUI\components\table.min.css" />
+    <Content Include="Assets\SemanticUI\components\transition.css" />
+    <Content Include="Assets\SemanticUI\components\transition.js" />
+    <Content Include="Assets\SemanticUI\components\transition.min.css" />
+    <Content Include="Assets\SemanticUI\components\transition.min.js" />
+    <Content Include="Assets\SemanticUI\components\video.css" />
+    <Content Include="Assets\SemanticUI\components\video.js" />
+    <Content Include="Assets\SemanticUI\components\video.min.css" />
+    <Content Include="Assets\SemanticUI\components\video.min.js" />
+    <Content Include="Assets\SemanticUI\components\visibility.js" />
+    <Content Include="Assets\SemanticUI\components\visibility.min.js" />
+    <Content Include="Assets\SemanticUI\components\visit.js" />
+    <Content Include="Assets\SemanticUI\components\visit.min.js" />
+    <Content Include="Assets\SemanticUI\semantic.css" />
+    <Content Include="Assets\SemanticUI\semantic.js" />
+    <Content Include="Assets\SemanticUI\semantic.min.css" />
+    <Content Include="Assets\SemanticUI\semantic.min.js" />
+    <Content Include="Assets\SemanticUI\themes\basic\assets\fonts\icons.svg" />
+    <Content Include="Assets\SemanticUI\themes\default\assets\fonts\icons.svg" />
+    <Content Include="Assets\SemanticUI\themes\default\assets\images\flags.png" />
+    <Content Include="Assets\SemanticUI\themes\github\assets\fonts\octicons.svg" />
+    <Content Include="index.html" />
+    <Content Include="stock.html" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\LoginService.asmx.cs">
+      <DependentUpon>LoginService.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Services\RegisterService.asmx.cs">
+      <DependentUpon>RegisterService.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Services\StockService.asmx.cs">
+      <DependentUpon>StockService.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\StockExchangeMarket\StockExchangeMarket.csproj">
+      <Project>{53d98f7c-a3f3-4d1f-bedb-e7c874fd5eb9}</Project>
+      <Name>StockExchangeMarket</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>60461</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:60461/StockExchangeMarket.Web</IISUrl>
+          <OverrideIISAppRootUrl>True</OverrideIISAppRootUrl>
+          <IISAppRootUrl>http://localhost:60461/StockExchangeMarket.Web</IISAppRootUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

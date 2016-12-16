@@ -1,0 +1,5 @@
+C:\Users\Fatih Türker\Documents\Visual Studio 2013\Projects\StockExchangeMarket\StockExchangeMarket\bin\Debug\StockExchangeMarket.dll
+C:\Users\Fatih Türker\Documents\Visual Studio 2013\Projects\StockExchangeMarket\StockExchangeMarket\bin\Debug\StockExchangeMarket.pdb
+C:\Users\Fatih Türker\Documents\Visual Studio 2013\Projects\StockExchangeMarket\StockExchangeMarket\obj\Debug\StockExchangeMarket.dll
+C:\Users\Fatih Türker\Documents\Visual Studio 2013\Projects\StockExchangeMarket\StockExchangeMarket\obj\Debug\StockExchangeMarket.pdb
+C:\Users\Fatih Türker\Documents\Visual Studio 2013\Projects\StockExchangeMarket\StockExchangeMarket\obj\Debug\StockExchangeMarket.csprojResolveAssemblyReference.cache

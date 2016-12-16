@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <script type="text/javascript" src="Assets/script/jquery-1.12.3.min.js"></script>
+    <script type="text/javascript" src="Assets/SemanticUI/semantic.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="Assets/SemanticUI/semantic.min.css" />
+    <link rel="stylesheet" type="text/css" href="Assets/css/common.css" />
+</head>
+<body>
+    <div id="ErrorMessage" class="ui red segment fullWidth"></div>
+    <script>
+        function getParameterByName(name) {
+            url = window.location.href;
+            name = name.replace(/[\[\]]/g, "\\$&");
+            var regex = new RegExp("[?&]" + name + "(=([^&#]*)|&|#|$)", "i"),
+                results = regex.exec(url);
+            if (!results) return null;
+            if (!results[2]) return '';
+            return decodeURIComponent(results[2].replace(/\+/g, " "));
+        }
+        $(document).ready(function () {
+            $("#ErrorMessage").html(getParameterByName("errorMessage"));
+        });
+    </script>
+</body>
+</html>

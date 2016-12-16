@@ -1,0 +1,10 @@
+﻿<%if(stocks != undefined && stocks != null){
+stocks.forEach(function(stock) { %>
+	<tr id="stock<%=stock.Code%>">
+		<td class="collapsing">
+			<i class="red minus icon pointedCursor" title="Delete Stock" onclick="removeStock('<%=stock.Code%>')"/>
+		</td>
+		<td><%=stock.Code%></td>
+		<td><%=stock.Price%></td>
+	</tr>
+<%});}%>

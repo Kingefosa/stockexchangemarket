@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Stock Exchange Market</title>
+    <script type="text/javascript" src="Assets/script/ejs.js"></script>
+    <script type="text/javascript" src="Assets/script/ejs_production.js"></script>
+    <script type="text/javascript" src="Assets/script/view.js"></script>
+    <script type="text/javascript" src="Assets/script/jquery-1.12.3.min.js"></script>   
+    <script type="text/javascript" src="Assets/SemanticUI/semantic.min.js"></script>
+    <script type="text/javascript" src="Assets/script/common.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="Assets/SemanticUI/semantic.min.css" />
+    <link rel="stylesheet" type="text/css" href="Assets/css/common.css" />
+</head>
+<body>
+    <div class="cContainer">
+        <div class="cHeader">
+            <p class="ui red ribbon label">STOCK EXCHANGE MARKET</p>
+        </div>
+
+        <div class="ui segment cBody">
+            <div class="loginContainer">
+                <div class="ui two column middle aligned very relaxed stackable grid">
+                    <div class="column">
+                        <div class="ui form">
+                            <div class="field">
+                                <label>Username</label>
+                                <div class="ui left icon input">
+                                    <input id="loginUsername" type="text" placeholder="Username" />
+                                    <i class="user icon"></i>
+                                </div>
+                            </div>
+                            <div class="field">
+                                <label>Password</label>
+                                <div class="ui left icon input">
+                                    <input id="loginPassword" type="password" />
+                                    <i class="lock icon"></i>
+                                </div>
+                            </div>
+                            <div id="loginButton" class="ui blue submit button" onclick="loginUser()">Login</div>
+                        </div>
+                    </div>
+                    <div class="ui vertical divider">
+                        Or
+                    </div>
+                    <div class="center aligned column">
+                        <div class="ui big green labeled icon button" onclick="displaySignUpModal()">
+                            <i class="signup icon"></i>
+                            Sign Up
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

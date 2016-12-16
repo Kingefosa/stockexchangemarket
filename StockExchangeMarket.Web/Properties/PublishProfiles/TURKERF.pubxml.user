@@ -1,0 +1,550 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\Fatih Türker\Desktop\StockExchangeMarket.Web</_PublishTargetUrl>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Assets/css/common.css">
+      <publishTime>04/16/2016 18:13:47</publishTime>
+    </File>
+    <File Include="Assets/script/common.js">
+      <publishTime>04/17/2016 01:51:22</publishTime>
+    </File>
+    <File Include="Assets/script/ejs.js">
+      <publishTime>10/28/2009 12:18:46</publishTime>
+    </File>
+    <File Include="Assets/script/ejs_production.js">
+      <publishTime>10/28/2009 12:49:18</publishTime>
+    </File>
+    <File Include="Assets/script/jquery-1.12.3.min.js">
+      <publishTime>04/16/2016 01:59:25</publishTime>
+    </File>
+    <File Include="Assets/script/stocks.js">
+      <publishTime>04/17/2016 02:05:18</publishTime>
+    </File>
+    <File Include="Assets/script/view.js">
+      <publishTime>10/28/2009 12:21:08</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/accordion.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/accordion.js">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/accordion.min.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/accordion.min.js">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/ad.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/ad.min.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/api.js">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/api.min.js">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/breadcrumb.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/breadcrumb.min.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/button.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/button.min.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/card.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/card.min.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/checkbox.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/checkbox.js">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/checkbox.min.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/checkbox.min.js">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/colorize.js">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/colorize.min.js">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/comment.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/comment.min.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/container.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/container.min.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/dimmer.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/dimmer.js">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/dimmer.min.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/dimmer.min.js">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/divider.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/divider.min.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/dropdown.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/dropdown.js">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/dropdown.min.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/dropdown.min.js">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/embed.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/embed.js">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/embed.min.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/embed.min.js">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/feed.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/feed.min.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/flag.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/flag.min.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/form.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/form.js">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/form.min.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/form.min.js">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/grid.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/grid.min.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/header.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/header.min.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/icon.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/icon.min.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/image.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/image.min.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/input.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/input.min.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/item.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/item.min.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/label.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/label.min.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/list.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/list.min.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/loader.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/loader.min.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/menu.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/menu.min.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/message.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/message.min.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/modal.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/modal.js">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/modal.min.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/modal.min.js">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/nag.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/nag.js">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/nag.min.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/nag.min.js">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/popup.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/popup.js">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/popup.min.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/popup.min.js">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/progress.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/progress.js">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/progress.min.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/progress.min.js">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/rail.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/rail.min.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/rating.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/rating.js">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/rating.min.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/rating.min.js">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/reset.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/reset.min.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/reveal.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/reveal.min.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/search.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/search.js">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/search.min.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/search.min.js">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/segment.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/segment.min.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/shape.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/shape.js">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/shape.min.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/shape.min.js">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/sidebar.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/sidebar.js">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/sidebar.min.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/sidebar.min.js">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/site.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/site.js">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/site.min.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/site.min.js">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/state.js">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/state.min.js">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/statistic.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/statistic.min.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/step.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/step.min.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/sticky.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/sticky.js">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/sticky.min.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/sticky.min.js">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/tab.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/tab.js">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/tab.min.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/tab.min.js">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/table.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/table.min.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/transition.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/transition.js">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/transition.min.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/transition.min.js">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/video.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/video.js">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/video.min.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/video.min.js">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/visibility.js">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/visibility.min.js">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/visit.js">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/components/visit.min.js">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/semantic.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/semantic.js">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/semantic.min.css">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/semantic.min.js">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/themes/basic/assets/fonts/icons.eot">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/themes/basic/assets/fonts/icons.svg">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/themes/basic/assets/fonts/icons.ttf">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/themes/basic/assets/fonts/icons.woff">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/themes/default/assets/fonts/icons.eot">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/themes/default/assets/fonts/icons.otf">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/themes/default/assets/fonts/icons.svg">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/themes/default/assets/fonts/icons.ttf">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/themes/default/assets/fonts/icons.woff">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/themes/default/assets/fonts/icons.woff2">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/themes/default/assets/images/flags.png">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/themes/github/assets/fonts/octicons-local.ttf">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/themes/github/assets/fonts/octicons.svg">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/themes/github/assets/fonts/octicons.ttf">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="Assets/SemanticUI/themes/github/assets/fonts/octicons.woff">
+      <publishTime>03/29/2016 19:44:06</publishTime>
+    </File>
+    <File Include="bin/StockExchangeMarket.dll">
+      <publishTime>04/17/2016 03:01:11</publishTime>
+    </File>
+    <File Include="bin/StockExchangeMarket.Web.dll">
+      <publishTime>04/17/2016 03:01:12</publishTime>
+    </File>
+    <File Include="bin/StockExchangeMarketClient.dll">
+      <publishTime>04/17/2016 01:27:27</publishTime>
+    </File>
+    <File Include="errorpage.html">
+      <publishTime>04/16/2016 17:34:26</publishTime>
+    </File>
+    <File Include="index.html">
+      <publishTime>04/16/2016 16:12:33</publishTime>
+    </File>
+    <File Include="Services/LoginService.asmx">
+      <publishTime>04/16/2016 02:56:02</publishTime>
+    </File>
+    <File Include="Services/RegisterService.asmx">
+      <publishTime>04/16/2016 02:56:02</publishTime>
+    </File>
+    <File Include="Services/StockService.asmx">
+      <publishTime>04/16/2016 17:13:59</publishTime>
+    </File>
+    <File Include="stock.html">
+      <publishTime>04/16/2016 17:25:21</publishTime>
+    </File>
+    <File Include="Templates/Register.ejs">
+      <publishTime>04/17/2016 01:41:39</publishTime>
+    </File>
+    <File Include="Templates/StockAppender.ejs">
+      <publishTime>04/16/2016 18:15:31</publishTime>
+    </File>
+    <File Include="Templates/Stocks.ejs">
+      <publishTime>04/16/2016 18:22:32</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>04/17/2016 03:01:12</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

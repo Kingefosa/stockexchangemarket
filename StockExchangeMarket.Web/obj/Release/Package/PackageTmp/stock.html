@@ -1,0 +1,55 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Stock Exchange Market</title>
+    <script type="text/javascript" src="Assets/script/ejs.js"></script>
+    <script type="text/javascript" src="Assets/script/ejs_production.js"></script>
+    <script type="text/javascript" src="Assets/script/view.js"></script>
+    <script type="text/javascript" src="Assets/script/jquery-1.12.3.min.js"></script>
+    <script type="text/javascript" src="Assets/SemanticUI/semantic.min.js"></script>
+    <script type="text/javascript" src="Assets/script/common.js"></script>
+    <script type="text/javascript" src="Assets/script/stocks.js"></script>
+    <link rel="stylesheet" type="text/css" href="Assets/SemanticUI/semantic.min.css" />
+    <link rel="stylesheet" type="text/css" href="Assets/css/common.css" /> 
+</head>
+<body>   
+    <div class="cContainer">
+        <!--Header-->
+        <div class="ui secondary pointing menu">
+            <a class="item active">
+                My Stocks
+            </a>
+            <div class="right menu">
+                <a class="ui item" onclick="logoutUser()">
+                    Logout
+                </a>
+            </div>
+        </div>
+
+        <!--Body-->
+        <div class="ui segment">
+            <table class="ui celled table">
+                <thead>
+                    <tr>
+                        <th></th>
+                        <th>Stock Code</th>
+                        <th>Stock Price</th>
+                    </tr>
+                </thead>
+                <tbody id="UserStockList">        
+                </tbody>
+                <tfoot class="full-width">
+                    <tr>
+                        <th></th>
+                        <th colspan="2">
+                            <div class="ui right floated small primary labeled icon button green inverted" onclick="displayNewStockAppender()">
+                                <i class="plus icon"></i> Add New Stock
+                            </div>
+                        </th>
+                    </tr>
+                </tfoot>
+            </table>
+        </div>
+    </div>
+</body>
+</html>
